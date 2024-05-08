@@ -5,10 +5,10 @@ class Platformer extends Phaser.Scene {
 
     init() {
         // variables and settings
-        this.ACCELERATION = 500;
-        this.DRAG = 700;    // DRAG < ACCELERATION = icy slide
-        this.physics.world.gravity.y = 1500;
-        this.JUMP_VELOCITY = -900;
+        this.ACCELERATION = 400;
+        this.DRAG = 600;    // DRAG < ACCELERATION = icy slide
+        this.physics.world.gravity.y = 1300;
+        this.JUMP_VELOCITY = -700;
     }
 
     create() {
